@@ -7,7 +7,7 @@ struct MockAIProductRecognitionService: AIProductRecognitionService {
 
         // TODO: Replace this mock with a real Vision/API request, for example OpenAI Vision API.
         return ProductAnalysisResult(
-            productName: "Молоко",
+            productName: "Молочко",
             category: "Молочные продукты",
             estimatedExpiryDate: Calendar.current.date(byAdding: .day, value: 5, to: Date()) ?? Date(),
             confidence: 0.86
